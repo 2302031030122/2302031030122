@@ -1,0 +1,17 @@
+html code with css code:-
+import "./desktop.css";
+
+const Desktop = () => {
+  return <div className="desktop-12" />;
+};
+
+export default Desktop;
+
+.desktop-12 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1024px;
+  overflow: hidden;
+  letter-spacing: normal;
+}

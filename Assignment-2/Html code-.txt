@@ -1,0 +1,71 @@
+Html code:-
+
+import FrameComponent from "../components/FrameComponent";
+import "./desktop.css";
+
+const Desktop = () => {
+  return (
+    <div className="desktop-8">
+      <div className="desktop-8-child" />
+      <section className="frame-parent">
+        <div className="frame-wrapper">
+          <div className="rectangle-parent">
+            <div className="frame-child" />
+            <div className="frame-item" />
+          </div>
+        </div>
+        <div className="frame-group">
+          <div className="frame-container">
+            <div className="logo-2-2-parent">
+              <div className="logo-2-2" />
+              <img
+                className="image-7-icon"
+                loading="lazy"
+                alt=""
+                src="/image-7@2x.png"
+              />
+            </div>
+            <div className="or-separator">
+              <div className="remember-checkbox">
+                <h1 className="log-in">Log-in</h1>
+                <div className="frame-div">
+                  <div className="flat-color-iconsgoogle-wrapper">
+                    <img
+                      className="flat-color-iconsgoogle"
+                      loading="lazy"
+                      alt=""
+                      src="/flatcoloriconsgoogle.svg"
+                    />
+                  </div>
+                  <img
+                    className="vector-icon"
+                    loading="lazy"
+                    alt=""
+                    src="/vector.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="ellipse-wrapper">
+            <div className="frame-inner" />
+          </div>
+        </div>
+      </section>
+      <section className="desktop-8-inner">
+        <div className="frame-parent1">
+          <div className="frame-parent2">
+            <div className="rectangle-wrapper">
+              <div className="rectangle-div" />
+            </div>
+            <h1 className="or">or</h1>
+            <div className="rectangle-container">
+              <div className="frame-child1" />
+            </div>
+          </div>
+          <FrameComponent />
+        </div>
+      </section>
+    </div>
+  );
+};
